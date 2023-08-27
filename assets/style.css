@@ -56,6 +56,12 @@
     padding:15px;
     border-radius: 10px;
     margin-bottom: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.detail-icon-item:hover{
+    box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, .3);
+    transform: scale(.95);
 }
 .detail-icon-item:nth-child(1){
     background-color: rgba(245, 201, 201, 0.514);
@@ -87,9 +93,9 @@
 }
 
 .AppBtn{
-    background: #303B59;
+    background-color: rgba(103,67,255,1);
     color: white;
-    transition: all 1s ease-in-out;
+    transition: all .2s linear;
     border: none;
     padding: 15px 0;
     margin-top: 20px;
@@ -97,6 +103,6 @@
 }
 
 .AppBtn:hover{
-    background: linear-gradient(180deg, rgba(103,67,255,1) 0%, rgba(53,44,224,1) 100%);
+    background-color: rgb(78, 47, 218);
     color: white;
 }
