@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.myApp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-section{
+    padding: 35px 0;
+    background: linear-gradient(180deg, rgba(103,67,255,1) 0%, rgba(53,44,224,1) 100%);
+    border-radius: 25px;
+}
+
+.result-number {
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.result-number .number-1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.result-section .result-number{
+    height: 190px;
+    width: 190px;
+    background: linear-gradient(180deg, rgba(76,34,201,1) 0%, rgba(70,51,237,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+}
+
+.number-2{
+    position: absolute;
+    margin-top: 95px;
+    color: rgba(255, 255, 255, 0.39);
+}
+.result-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 35px 35px;
+}
+
+.detail-icon-item{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.detail-icon-item:nth-child(1){
+    background-color: rgba(245, 201, 201, 0.514);
+    color: #DC625D;
+}
+
+.detail-icon-item:nth-child(2){
+    background-color: #FFFBF2;
+    color: #E0AC3C;
+}
+
+.detail-icon-item:nth-child(3){
+    background-color: #F2FBFA;
+    color: #30B48D;
+}
+
+.detail-icon-item:nth-child(4){
+    background-color:#F3F3FD;
+    color: #29328D;
+}
+
+.detail-icon-item .bold{
+    font-weight: 800;
+}
+
+.item-name{
+    font-weight: 500;
+    padding-left:7px ;
+}
+
+.AppBtn{
+    background: #303B59;
+    color: white;
+    transition: all 1s ease-in-out;
+    border: none;
+    padding: 15px 0;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.AppBtn:hover{
+    background: linear-gradient(180deg, rgba(103,67,255,1) 0%, rgba(53,44,224,1) 100%);
+    color: white;
+}
